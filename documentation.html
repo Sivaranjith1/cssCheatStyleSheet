@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/favicon-96x96.png">
+    <title>Documentation</title>
+</head>
+
+<body>
+    <div class="nav fixed-nav blue">
+        <h1 class="white-text center no-padding">Navbar</h1>
+    </div>
+
+    <div class="nav-space"></div>
+
+    <section class="container center">
+        <h1 class="center">.container</h1>
+        <p>Setter en container rundt objektet</p>
+        <p>eks</p>
+        <code> &lt;div class= &QUOT; container &QUOT; &gt;&lt;/div&gt; </code>
+    </section>
+
+    <section class="container center">
+        <h1 class="center">Farger</h1>
+        <p>Setter på background eller color</p>
+        <p>eks</p>
+        <code> &lt;div class= &QUOT; teal &QUOT; &gt;&lt;/div&gt; </code>
+        <p>Legg til .bg for background-color og .text-color for color</p>
+        <div class="space"></div>
+
+        <div style="padding: 20px;" class="teal bg center-block">.teal</div>
+        <div style="padding: 20px;" class="red bg center-block">.red</div>
+        <div style="padding: 20px;" class="pink bg center-block">.pink</div>
+        <div style="padding: 20px;" class="indigo bg center-block">.indigo</div>
+        <div style="padding: 20px;" class="blue bg center-block">.blue</div>
+        <div style="padding: 20px;" class="cyan bg center-block">.cyan</div>
+        <div style="padding: 20px;" class="green bg center-block">.green</div>
+        <div style="padding: 20px;" class="orange bg center-block">.orange</div>
+        <div style="padding: 20px;" class="amber bg center-block">.amber</div>
+        <div style="padding: 20px;" class="black bg center-block white-text">.black</div>
+    </section>
+
+    <section class="container center">
+        <h1 class="center">Text</h1>
+        <p>text-aleign:center</p>
+        <p>eks</p>
+        <code> &lt;div class= &QUOT; center &QUOT; &gt;&lt;/div&gt; </code>
+    </section>
+
+    <section class="container center">
+        <h1 class="center">Div element</h1>
+        <p>.inline (display: inline-block), .block (display: block), .center-block (d:block, margin:auto)</p>
+        <p>eks</p>
+        <code> &lt;div class= &QUOT; center-block &QUOT; &gt;&lt;/div&gt; </code>
+    </section>
+
+    <section class="container center">
+        <h1 class="center">Knapper</h1>
+        <p>Legg til knapper</p>
+        <p>eks</p>
+        <code>
+            &lt;button class=&QUOT;btn small filled&QUOT;&gt;Knapp&lt;/button&gt;
+            <div></div>
+            &lt;button class=&QUOT;btn flat teal&QUOT;&gt;Knapp&lt;/button&gt;
+            <div></div>
+            &lt;button class=&QUOT;btn large outline amber&QUOT;&gt;Knapp&lt;/button&gt;
+        </code>
+        <div></div>
+        <button class="btn small filled">Knapp</button>
+        <button class="btn flat teal">Knapp</button>
+        <button class="btn large outline amber">Knapp</button>
+    </section>
+
+    <section class="container center">
+        <h1 class="center no-padding">Nav</h1>
+        <p>Legger til en navbar. Skal være øverst utenfor div</p>
+        <p>Legg til .nav-fixed for å gjøre den fixed til toppen</p>
+
+        <p>eks</p>
+        <code>
+            &lt;div class=&QUOT;nav fixed-nav blue&QUOT;&gt;
+            &lt;h1 class=&QUOT;white-text center no-padding&QUOT;&gt;Navbar&lt;/h1&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&QUOT;nav-space&QUOT;&gt;&lt;/div&gt;
+        </code>
+        <div class="space"></div>
+        <div class="nav">
+            <h1 class="white-text center no-padding">Navbar</h1>
+        </div>
+    </section>
+
+    <section class="container center">
+        <h1 class="center">Form</h1>
+        <p>Input: legg til .input, select: legg til .select</p>
+
+        <p>eks</p>
+        <code>
+            &lt;input type="text" class="input" placeholder="Skriv navn"&gt;
+            <div></div>
+            &lt;select class="select"&gt;
+            <div></div>
+            &lt;option value=""&gt;Option 1&lt;/option&gt;
+            <div></div>
+            &lt;option value=""&gt;Option 2&lt;/option&gt;
+            <div></div>
+            &lt;option value=""&gt;Option 3&lt;/option&gt;
+            <div></div>
+            &lt;/select&gt;
+        </code>
+        <input type="text" class="input" placeholder="Skriv navn">
+        <select class="select">
+            <option value="">Option 1</option>
+            <option value="">Option 2</option>
+            <option value="">Option 3</option>
+        </select>
+
+        <p>Radio button</p>
+        <code>
+            &lt;label class="check-label left teal"&gt;En
+            &lt;input type="radio" checked="checked" name="radio"&gt;
+            &lt;span class="checkmark"&gt;&lt;/span&gt;
+            &lt;/label&gt;
+        </code>
+
+        <label class="check-label left teal">En
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <label class="check-label left">To
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+
+        <div class="space"></div>
+        <p>Checkbox</p>
+        <code>
+            &lt;label class="checkbox left amber"&gt;En
+            &lt;input type="checkbox" checked="checked"&gt;
+            &lt;span class="mark"&gt;&lt;/span&gt;
+            &lt;/label&gt;
+        </code>
+        <label class="checkbox left amber">En
+            <input type="checkbox" checked="checked">
+            <span class="mark"></span>
+        </label>
+    </section>
+    <section class="center container">
+        <h1 class="center">Søyle diagramm</h1>
+        <code>
+            &lt;div class="graf-parent"&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" style="width: 10%;"&gt;10&lt;/div&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" style="width: 90%;"&gt;90&lt;/div&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" style="width: 40%;"&gt;40&lt;/div&gt;
+            <div></div>
+            &lt;/div&gt;
+            <div></div>
+            &lt;div class="graf-parent standing" style="height: 300px"&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" style="height: 10%;"&gt;10&lt;/div&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" style="height: 90%;"&gt;90&lt;/div&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" style="height: 40%;"&gt;40&lt;/div&gt;
+            <div></div>
+            &lt;/div&gt;
+        </code>
+        <div class="graf-parent">
+            <div class="graf teal white-text" style="width: 10%;">10</div>
+            <div class="graf teal white-text" style="width: 90%;">90</div>
+            <div class="graf teal white-text" style="width: 40%;">40</div>
+        </div>
+        <div class="graf-parent standing" style="height: 300px">
+            <div class="graf teal white-text" style="height: 10%;">10</div>
+            <div class="graf teal white-text" style="height: 90%;">90</div>
+            <div class="graf teal white-text" style="height: 40%;">40</div>
+        </div>
+    </section>
+
+    <section class="center container">
+        <h1 class="center">Class Søyle diagramm</h1>
+        <code>
+            &lt;div class="graf-parent" id="graf1"&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" data-value="1"&gt;10&lt;/div&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" data-value="9"&gt;90&lt;/div&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" data-value="4"&gt;40&lt;/div&gt;
+            <div></div>
+            &lt;/div&gt;
+            <div></div>
+            &lt;div class="graf-parent standing" id="graf2" style="height: 300px"&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" data-value="10"&gt;10&lt;/div&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" data-value="90"&gt;90&lt;/div&gt;
+            <div></div>
+            &lt;div class="graf teal white-text" data-value="40"&gt;40&lt;/div&gt;
+            <div></div>
+            &lt;/div&gt;
+            <div></div>
+            <div></div>
+            const gph1 = new Graph(parentDiv, options={})
+        </code>
+
+        <h3 class="center">Options</h3>
+        <ul class="collection">
+            <li class="collection-item">Transition: sets transition (1s default)</li>
+            <li class="collection-item">Animation: if it should animate (true default)</li>
+            <li class="collection-item">Delay: autoplay after given millisec (null default)</li>
+        </ul>
+
+        <div class="space"></div>
+
+        <h3 class="center">Methods</h3>
+        <ul class="collection">
+            <li class="collection-item"><strong>graf.play()</strong>: plays the animation</li>
+            <li class="collection-item"><strong>graf.add(value, classes=[], text='')</strong>: add one to the graf
+                parent,<br>value: of
+                the
+                child, classes: classes to the graf, text: innerHTML</li>
+            <li class="collection-item"><strong>graf.max/graf.oldMax</strong>: get the max of the graf elements
+            </li>
+        </ul>
+
+        <div class="space"></div>
+        <button class="btn filled small" id="grafBtn">Play animation</button>
+        <div class="graf-parent" id="graf1">
+            <div class="graf teal white-text" data-value="1">10</div>
+            <div class="graf teal white-text" data-value="9">90</div>
+            <div class="graf teal white-text" data-value="4">40</div>
+        </div>
+
+        <div class="space"></div>
+
+        <div class="graf-parent standing" id="graf2" style="height: 300px">
+            <div class="graf teal white-text" data-value="10">10</div>
+            <div class="graf teal white-text" data-value="90">90</div>
+            <div class="graf teal white-text" data-value="40">40</div>
+        </div>
+    </section>
+
+    <section class="center container">
+        <h1 class="center">Collection</h1>
+        <code>
+            &lt;ul class="collection"&gt;
+            <div></div>
+            &lt;li class="collection-item"&gt;Alvin&lt;/li&gt;
+            <div></div>
+            &lt;li class="collection-item"&gt;Alvin&lt;/li&gt;
+            <div></div>
+            &lt;li class="collection-item"&gt;Alvin&lt;/li&gt;
+            <div></div>
+            &lt;li class="collection-item"&gt;Alvin&lt;/li&gt;
+            <div></div>
+            &lt;/ul&gt;
+        </code>
+        <div class="space"></div>
+        <ul class="collection">
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+        </ul>
+    </section>
+
+    <section class="center container">
+        <h1 class="center">Error</h1>
+        <code>
+            &lt;script&gt;
+            <div></div>
+            const options = {}
+            <div></div>
+            const err = new ErrorBar(options)
+            <div></div>
+            err.show('The text', 'error') //red
+            <div></div>
+            err.show('The text', 'success') //green
+            <div></div>
+            &lt;/script&gt;
+        </code>
+
+        <h3 class="center">Options</h3>
+        <ul class="collection">
+            <li class="collection-item"><b>parent</b>: HTMLelement, parent of the errorbar (default: document.body)</li>
+            <li class="collection-item"><b>showTime</b>: millliseconds, how long should the errorbar stay open (default: 4000)</li>
+            <li class="collection-item"><b>transition</b>: ex. 1s, how long should the trasition take (default: 1s)</li>
+        </ul>
+
+        <div class="space"></div>
+
+        <h3 class="center">Methods</h3>
+        <ul class="collection">
+            <li class="collection-item"><strong>err.show(text, color)</strong>: Displays the error message</li>
+            <li class="collection-item"><strong>err.close()</strong>: Closes the error message</li>
+            <li class="collection-item"><strong>err.text</strong>: get or set the text of the error</li>
+        </ul>
+
+
+        <div class="space"></div>
+        <button class="btn filled red" id="errorError">Error</button>
+        <button class="btn filled teal" id="errorSuccess">Success</button>
+    </section>
+
+    <section class="container center">
+        <h1 class="center">Modal</h1>
+        <p>Åpner en boks</p>
+
+        <code>
+            &lt;div class="modal" id="modal1"&gt;
+            <div></div>
+            &lt;div class="modal-content left"&gt;
+            Some Text
+            &lt;/div&gt;
+            <div></div>
+            &lt;div class="modal-footer"&gt;
+            <div></div>
+            &lt;a href="#" class="btn flat teal text-color"&gt;Disagree&lt;/a&gt;
+            <div></div>
+            &lt;a href="#" class="btn flat red text-color"&gt;Agree&lt;/a&gt;
+            <div></div>
+            &lt;/div&gt;
+            &lt;/div&gt;
+        </code>
+        <p>Må kjøre initModal()</p>
+        <div class="space"></div>
+        <button class="btn filled amber" onclick="openModal(modal1)">Åpne</button>
+
+        <div class="modal" id="modal1">
+            <div class="modal-content left">
+                Dette er en modal
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn flat teal text-color">Disagree</a>
+                <a href="#" class="btn flat red text-color">Agree</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container center">
+        <h1 class="center">Card</h1>
+        <p>Creates a card element</p>
+
+        <code>
+            &lt;div class="card"&gt;
+            <div></div>
+                &lt;div class="card-img"&gt;
+                <div></div>
+                    &lt;img src="static/nice-france.jpg" alt=""&gt;
+                    <div></div>
+                &lt;/div&gt;
+                <div></div>
+                &lt;div class="card-content"&gt;
+                <div></div>
+                    &lt;h2 class="cetner"&gt;France&lt;/h2&gt;
+                    <div></div>
+    
+                    <div></div>
+                    &lt;div class="flex1"&gt;
+                    <div></div>
+                        &lt;p&gt;Something&lt;/p&gt;
+                        <div></div>
+                        &lt;p&gt;Something more&lt;/p&gt;
+                        <div></div>
+                    &lt;/div&gt;
+                    <div></div>
+                &lt;/div&gt;
+                <div></div>
+            &lt;/div&gt;
+            <div></div>
+        </code>
+
+        <div class="space"></div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="static/nice-france.jpg" alt="">
+            </div>
+            <div class="card-content">
+                <h2 class="cetner">France</h2>
+
+                <div class="flex1">
+                    <p>Something</p>
+                    <p>Something more</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container center">
+        <h1 class="center">Card-holder</h1>
+        <p>Element that holdes card</p>
+
+        <code>
+            &lt;div class="card"&gt;
+            <div></div>
+                &lt;div class="card-img"&gt;
+                <div></div>
+                    &lt;img src="static/nice-france.jpg" alt=""&gt;
+                    <div></div>
+                &lt;/div&gt;
+                <div></div>
+                &lt;div class="card-content"&gt;
+                <div></div>
+                    &lt;h2 class="cetner"&gt;France&lt;/h2&gt;
+                    <div></div>
+    
+                    <div></div>
+                    &lt;div class="flex1"&gt;
+                    <div></div>
+                        &lt;p&gt;Something&lt;/p&gt;
+                        <div></div>
+                        &lt;p&gt;Something more&lt;/p&gt;
+                        <div></div>
+                    &lt;/div&gt;
+                    <div></div>
+                &lt;/div&gt;
+                <div></div>
+            &lt;/div&gt;
+            <div></div>
+        </code>
+
+        <div class="space"></div>
+
+        <div class="card-holder">
+            <div class="card">
+                <div class="card-img">
+                    <img src="static/nice-france.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <h2 class="cetner">France</h2>
+    
+                    <div class="flex1">
+                        <p>Something</p>
+                        <p>Something more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="static/nice-france.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <h2 class="cetner">France</h2>
+    
+                    <div class="flex1">
+                        <p>Something</p>
+                        <p>Something more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="static/nice-france.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <h2 class="cetner">France</h2>
+    
+                    <div class="flex1">
+                        <p>Something</p>
+                        <p>Something more</p>
+                    </div>
+                </div>
+            </div>   
+            <div class="card">
+                <div class="card-img">
+                    <img src="static/nice-france.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <h2 class="cetner">France</h2>
+    
+                    <div class="flex1">
+                        <p>Something</p>
+                        <p>Something more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="static/nice-france.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <h2 class="cetner">France</h2>
+    
+                    <div class="flex1">
+                        <p>Something</p>
+                        <p>Something more</p>
+                    </div>
+                </div>
+            </div>   
+        </div>
+
+        <h2>Card functions</h2>
+        <p>Add to the card-holder</p>
+        <code>
+            &lt;script&gt;
+            <div></div>
+            addNewCard(parent, array, options = {})
+            <div></div>
+            &lt;/script&gt;
+        </code>
+
+        <h3 class="center">Array</h3>
+        <ul class="collection">
+            <li class="collection-item"><b>img</b>: src, adds a img to the card</li>
+            <li class="collection-item"><b>html</b>: html, innerHTML of the card-content</li>
+            <li class="collection-item"><b>index</b>: number, Sets the data-index of the card element</li>
+        </ul>
+
+        <div class="space"></div>
+
+        <h3 class="center">Options</h3>
+        <ul class="collection">
+            <li class="collection-item"><strong>click</strong>: function, function to run on click</li>
+        </ul>
+
+        <div class="space"></div>
+        <button class="btn filled small red" id="cardBtn">Legg til flere</button>
+
+    </section>
+
+    <section class="container center">
+        <h1 class="center">Slideshow</h1>
+        <p>Er en slideshow</p>
+
+        <code>
+            &lt;div class="slideshow" id="slideshow1"&gt;
+            <div></div>
+                &lt;div class="roller"&gt;
+                <div></div>
+                    &lt;div class="slide cover"
+                        data-img="static/nice-france.jpg"&gt;
+                        <div></div>
+                        &lt;h1 class="center white-text f-4rem"&gt;Dette er Frankrike&lt;/h1&gt;
+                        <div></div>
+                    &lt;/div&gt;
+                    <div></div>
+                    &lt;div class="slide cover" data-img="http://img.gfx.no/615/615789/bilde1.jpg"&gt;
+                    <div></div>
+                    &lt;/div&gt;
+                    <div></div>
+                    &lt;div class="slide cover"
+                        data-img="https://www.guru-utvikling.no/wp-content/uploads/2017/05/Bilde-til-sak-om-bilder-750x365.jpg"&gt;
+                        <div></div>
+                    &lt;/div&gt;
+                    <div></div>
+                    &lt;div class="slide cover"
+                        data-img="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"&gt;
+                        <div></div>
+                    &lt;/div&gt;
+                    <div></div>
+                    &lt;div class="slide cover"
+                        data-img="https://cdn-files.cloud/wp-content/blogs.dir/93/files/2017/07/Strand-bildetips.jpg"&gt;
+                        <div></div>
+                    &lt;/div&gt;
+                    <div></div>
+                &lt;/div&gt;
+                <div></div>
+            &lt;/div&gt;
+            <div class="space"></div>
+            &lt;script&gt;
+            <div></div>
+            const slideshow1 = document.querySelector('#slideshow1')
+            <div></div>
+            const ssh = new slideshow(slideshow1, {
+            <div></div>
+                transition: '0.5s',
+            <div></div>
+                speed: 3000
+            <div></div>
+            })
+            <div></div>
+            &lt;/script&gt;
+        </code>
+        <div class="space"></div>
+
+        <h3 class="center">Options</h3>
+        <ul class="collection">
+            <li class="collection-item"><b>speed</b>: number (millliseconds), time between each slide (default: 2000)</li>
+            <li class="collection-item"><b>transition</b>: ex. 1s, how long should the trasition take (default: 1s)</li>
+            <li class="collection-item"><b>arrow</b>: boolean, if there should be arrow or not (default: true)</li>
+        </ul>
+
+        <div class="space"></div>
+
+        <h3 class="center">Methods</h3>
+        <ul class="collection">
+            <li class="collection-item"><strong>ssh.numSlides</strong>: gets the number of slides</li>
+            <li class="collection-item"><strong>ssh.nextArrow()</strong>: displays the next slide</li>
+            <li class="collection-item"><strong>ssh.previousArrow()</strong>: displays the previous slide</li>
+
+        <div class="space"></div>
+
+        <div class="slideshow" id="slideshow1">
+
+            <div class="roller">
+
+                <div class="slide cover"
+                    data-img="static/nice-france.jpg">
+                    <h1 class="center white-text f-4rem">Dette er Frankrike</h1>
+                </div>
+                <div class="slide cover" data-img="http://img.gfx.no/615/615789/bilde1.jpg">
+                </div>
+                <div class="slide cover"
+                    data-img="https://www.guru-utvikling.no/wp-content/uploads/2017/05/Bilde-til-sak-om-bilder-750x365.jpg">
+                </div>
+                <div class="slide cover"
+                    data-img="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg">
+                </div>
+                <div class="slide cover"
+                    data-img="https://cdn-files.cloud/wp-content/blogs.dir/93/files/2017/07/Strand-bildetips.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="modal.js"></script>
+    <script src="slideshow.js"></script>
+    <script src="graf.js"></script>
+    <script src="error.js"></script>
+    <script src="card.js"></script>
+    <script>
+        const modal1 = document.querySelector("#modal1");
+        initModal()
+
+        const slideshow1 = document.querySelector('#slideshow1')
+        const ssh = new slideshow(slideshow1, {
+            transition: '0.5s',
+            speed: 3000
+        })
+
+        const graf1 = document.querySelector('#graf1')
+        const gph1 = new Graph(graf1)
+
+        const graf2 = document.querySelector('#graf2')
+        const gph2 = new Graph(graf2, {
+            delay: 2000
+        })
+
+        document.querySelector('#grafBtn').addEventListener('click', () => {
+            gph1.play()
+        })
+
+        //Error
+        const err = new ErrorBar()
+
+        document.querySelector('#errorError').addEventListener('click', () => {
+            err.show('error')
+        })
+        document.querySelector('#errorSuccess').addEventListener('click', () => {
+            err.show('Success', 'success')
+        })
+
+        //card
+        const holder = document.querySelector('.card-holder');
+        document.querySelector('#cardBtn').addEventListener('click', () => {
+            addNewCard(
+                holder,
+                [{
+                    img: 'static/nice-france.jpg',
+                    html: '<h2>Ono</h2>',
+                    index: 0
+                },{
+                    img: 'static/nice-france.jpg',
+                    html: '<h2>Duno</h2>',
+                    index: 1
+                },],
+                {
+                    click: evt => console.log(evt.currentTarget)
+                }
+            )
+        })
+    </script>
+</body>
+
+</html>
